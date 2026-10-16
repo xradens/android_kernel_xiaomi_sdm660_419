@@ -24,9 +24,9 @@ on:
         options:
           - ringkas
           - lengkap
-  push:
-    branches:
-      - back
+  #push:
+  #  branches:
+  #    - back
 
 env:
   KERNEL_DIR: ${{ github.workspace }}/kernel
